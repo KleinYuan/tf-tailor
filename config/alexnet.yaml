@@ -1,0 +1,4 @@
+model_fp: 'example/alexnet_frozen.pb'
+input_tensor_names: ['Placeholder:0']
+output_tensor_names: ['Softmax:0']
+device: '/cpu:0'
